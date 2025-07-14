@@ -1,0 +1,47 @@
+.timer{
+    margin: 12px auto;
+    display:grid;
+    justify-content: center;
+    color:#83c5be;
+    text-align: center;
+    font-size: 30px;
+}
+.timer h1{
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+}
+body {
+    font-family: Georgia,  serif;
+  background-size: 40px 40px;
+  background-color: #006d77;
+}
+button{
+    background-color: #83c5be;
+    width:115px;
+    margin-top:10px;
+    height: 30px;
+}
+input{
+    margin-top:10px;
+    height:25px;
+    font-size:14pt;
+    background: #edf6f9;
+
+}
+button:hover{
+    border:#edf6f9 2px solid;
+    transition: all 0.5s ease;
+    transform: scale(1.1)
+}
+
+
+.form-container {
+  display: flex;
+  align-items: center;
+  margin-top:10px
+}
+
+.form-container label {
+  margin-right: 10px;
+}
